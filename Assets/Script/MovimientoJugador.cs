@@ -24,6 +24,14 @@ public class MovimientoJugador : MonoBehaviour
         movimientoX=-Input.GetAxis("Horizontal")*Time.deltaTime*velocidadMovimiento;
         movimientoZ = -Input.GetAxis("Vertical")*Time.deltaTime*velocidadMovimiento;
         transform.Translate(movimientoX, movimientoY, movimientoZ);
+        if (Input.GetMouseButtonDown(0))
+        {
+            transform.Rotate(0, -90, 0);
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            transform.Rotate(0, 90, 0);
+        }
     }
 
     /*private void OnTriggerEnter(Collider other)
