@@ -9,6 +9,9 @@ public class MovimientoJugador : MonoBehaviour
     public float movimientoY;
     public float movimientoZ;
     public float velocidadMovimiento = 1.5f;
+    /*[SerializeField]
+    GameObject pantallaFinal;*/
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,4 +25,11 @@ public class MovimientoJugador : MonoBehaviour
         movimientoZ = -Input.GetAxis("Vertical")*Time.deltaTime*velocidadMovimiento;
         transform.Translate(movimientoX, movimientoY, movimientoZ);
     }
+
+    /*private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Meta")
+        pantallaFinal.SetActive(true);
+
+    }*/
 }
