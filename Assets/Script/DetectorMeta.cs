@@ -13,13 +13,9 @@ public class DetectorMeta : MonoBehaviour
             if (other.tag == "Player")
             {
                 Debug.Log("Has llegado a la meta");
-                //pantallaFinal.SetActive(true);
+                pantallaFinal.SetActive(true);
                 other.GetComponent<MovimientoJugador>().enabled = false;
             }
         }
-   private void Update()
-    {
-        pantallaFinal.SetActive(false);
-    }
-
+   
 }
