@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DetectorColisionPared : MonoBehaviour
 {
@@ -9,6 +10,14 @@ public class DetectorColisionPared : MonoBehaviour
 
     [SerializeField]
     Material paredTocada;
+
+    [SerializeField]
+    TextMeshProUGUI CuentaChoques;
+
+    [SerializeField]
+    GameObject pantallaFinal;
+
+    int numeroChoques = 0;
 
     bool paredVioleta = false;
 
@@ -33,9 +42,15 @@ public class DetectorColisionPared : MonoBehaviour
       
         if(collision.gameObject.tag == "Player")
         {
-         Debug.Log(collision.gameObject.name);
+            numeroChoques = numeroChoques + 1;
+            Debug.Log(collision.gameObject.name);
             gameObject.GetComponent<MeshRenderer>().material = paredTocada;
             paredVioleta = true;
+        }
+        if (collision.gameObject.tag=="Meta")
+        {
+            pantallaFinal.SetActive(true);
+            CuentaChoques.text = numeroChoques.ToString();
         }
     }
 

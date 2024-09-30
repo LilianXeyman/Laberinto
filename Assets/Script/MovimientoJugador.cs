@@ -6,6 +6,12 @@ using TMPro;
 
 public class MovimientoJugador : MonoBehaviour
 {
+    [SerializeField]
+    TextMeshProUGUI CuentaFinalMonedas;
+
+    [SerializeField]
+    GameObject pantallaFinal;
+
     public float movimientoX;
     public float movimientoY;
     public float movimientoZ;
@@ -56,11 +62,10 @@ public class MovimientoJugador : MonoBehaviour
             Debug.Log("Tienes " + cuentaDeMonedas + " monedas");
             AudioSource.PlayClipAtPoint(SpecialcoinSFX, transform.position);
         }
-        if(other.tag.Contains("Coin"))
+        if (other.tag == "Meta")
         {
-            coinsText.text = cuentaDeMonedas.ToString();
-            other.gameObject.SetActive(false);
-
+            pantallaFinal.SetActive(true);
+            CuentaFinalMonedas.text = cuentaDeMonedas.ToString();
         }
     }
 }
