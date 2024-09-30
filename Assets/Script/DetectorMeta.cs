@@ -11,6 +11,11 @@ public class DetectorMeta : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI textLabelTime;
 
+    [SerializeField]
+    TextMeshProUGUI CuentaChoques;
+
+    int numeroChoques = 0;
+
     float tiempoDeLaPartida = 0.0f;
     bool estaJugando = true;
 
@@ -33,5 +38,13 @@ public class DetectorMeta : MonoBehaviour
             estaJugando = false;
             textLabelTime.text = tiempoDeLaPartida.ToString();
         }
+        if (other.tag == "Player")
+        {
+            numeroChoques = numeroChoques + 1;
+            Debug.Log("He chocado " + numeroChoques + " veces");
+            pantallaFinal.SetActive(true);
+            CuentaChoques.text = numeroChoques.ToString();
+        }
     }
+    
 }

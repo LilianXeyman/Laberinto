@@ -10,6 +10,9 @@ public class MovimientoJugador : MonoBehaviour
     TextMeshProUGUI CuentaFinalMonedas;
 
     [SerializeField]
+    TextMeshProUGUI CuentaFinalMonedas2;
+
+    [SerializeField]
     GameObject pantallaFinal;
 
     public float movimientoX;
@@ -60,5 +63,6 @@ public class MovimientoJugador : MonoBehaviour
             pantallaFinal.SetActive(true);
             CuentaFinalMonedas.text = cuentaDeMonedas.ToString();
         }
+        CuentaFinalMonedas2.text = cuentaDeMonedas.ToString();
     }
 }

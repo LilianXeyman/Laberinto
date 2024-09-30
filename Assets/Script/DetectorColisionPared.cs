@@ -48,19 +48,5 @@ public class DetectorColisionPared : MonoBehaviour
             paredVioleta = true;
             Debug.Log("He chocado " + numeroChoques + " veces");
         }
-        else if(collision.gameObject.tag == "Meta")
-        {
-            pantallaFinal.SetActive(true);
-            CuentaChoques.text = numeroChoques.ToString();
-        }
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            collider.gameObject.tag == "Meta";
-            pantallaFinal.SetActive(true);
-            CuentaChoques.text = numeroChoques.ToString();
-        }
     }
 }
