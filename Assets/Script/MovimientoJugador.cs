@@ -18,17 +18,10 @@ public class MovimientoJugador : MonoBehaviour
     public float velocidadMovimiento = 1.5f;
     
     public int cuentaDeMonedas = 0;
-    public TextMeshProUGUI coinsText;
+   
     public AudioClip coinSFX;
     public AudioClip SpecialcoinSFX;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
-
-    // Update is called once per frame
     void Update()
     {
         movimientoX=-Input.GetAxis("Horizontal")*Time.deltaTime*velocidadMovimiento;

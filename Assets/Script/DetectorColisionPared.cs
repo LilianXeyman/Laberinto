@@ -46,12 +46,21 @@ public class DetectorColisionPared : MonoBehaviour
             Debug.Log(collision.gameObject.name);
             gameObject.GetComponent<MeshRenderer>().material = paredTocada;
             paredVioleta = true;
+            Debug.Log("He chocado " + numeroChoques + " veces");
         }
-        if (collision.gameObject.tag=="Meta")
+        else if(collision.gameObject.tag == "Meta")
         {
             pantallaFinal.SetActive(true);
             CuentaChoques.text = numeroChoques.ToString();
         }
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            collider.gameObject.tag == "Meta";
+            pantallaFinal.SetActive(true);
+            CuentaChoques.text = numeroChoques.ToString();
+        }
+    }
 }
