@@ -12,12 +12,7 @@ public class DetectorColisionPared : MonoBehaviour
     Material paredTocada;
 
     [SerializeField]
-    TextMeshProUGUI CuentaChoques;
-
-    [SerializeField]
     GameObject pantallaFinal;
-
-    int numeroChoques = 0;
 
     bool paredVioleta = false;
 
@@ -42,11 +37,9 @@ public class DetectorColisionPared : MonoBehaviour
       
         if(collision.gameObject.tag == "Player")
         {
-            numeroChoques = numeroChoques + 1;
             Debug.Log(collision.gameObject.name);
             gameObject.GetComponent<MeshRenderer>().material = paredTocada;
             paredVioleta = true;
-            Debug.Log("He chocado " + numeroChoques + " veces");
         }
     }
 }

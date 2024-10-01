@@ -398,6 +398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -599,6 +603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -754,6 +762,10 @@ PrefabInstance:
     - target: {fileID: 1830070370897370688, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
       propertyPath: m_Name
       value: Pared completa (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1830070370897370688, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 6177169380068140063, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
       propertyPath: m_LocalScale.z
@@ -1020,6 +1032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1167,6 +1183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1236,6 +1256,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1307,6 +1331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1333,7 +1361,7 @@ GameObject:
   - component: {fileID: 209785725}
   m_Layer: 0
   m_Name: "Obst\xE1culoRotante"
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1451,7 +1479,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMaterial2: {fileID: 2100000, guid: b32a876c896c66f4285c6b0edae0cdb9, type: 2}
   paredTocada: {fileID: 2100000, guid: 7cc1e2d2d2d3b0b4ba6c998d4842888d, type: 2}
-  CuentaChoques: {fileID: 416338493}
   pantallaFinal: {fileID: 787427989}
 --- !u!4 &219800126 stripped
 Transform:
@@ -1680,6 +1707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1750,6 +1781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1819,6 +1854,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1911,6 +1950,10 @@ PrefabInstance:
     - target: {fileID: 1830070370897370688, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
       propertyPath: m_Name
       value: Pared completa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1830070370897370688, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 6177169380068140063, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2035,6 +2078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2059,6 +2106,7 @@ GameObject:
   - component: {fileID: 371720518}
   - component: {fileID: 371720522}
   - component: {fileID: 371720523}
+  - component: {fileID: 371720524}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
@@ -2201,6 +2249,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &371720524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371720517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757865ffbb601ba4ebff570ca9e9f4c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pantallaFinal: {fileID: 787427989}
+  CuentaDeChoques: {fileID: 416338493}
 --- !u!1001 &384739324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2477,7 +2539,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMaterial2: {fileID: 0}
   paredTocada: {fileID: 0}
-  CuentaChoques: {fileID: 416338493}
   pantallaFinal: {fileID: 787427989}
 --- !u!1001 &433490532
 PrefabInstance:
@@ -2538,6 +2599,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2888,6 +2953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2962,6 +3031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3035,6 +3108,10 @@ PrefabInstance:
     - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
       propertyPath: m_Name
       value: Cylinder (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3168,7 +3245,7 @@ GameObject:
   - component: {fileID: 557325661}
   m_Layer: 0
   m_Name: "Obst\xE1culoRotante (3)"
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3286,7 +3363,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMaterial2: {fileID: 2100000, guid: b32a876c896c66f4285c6b0edae0cdb9, type: 2}
   paredTocada: {fileID: 2100000, guid: 7cc1e2d2d2d3b0b4ba6c998d4842888d, type: 2}
-  CuentaChoques: {fileID: 416338493}
   pantallaFinal: {fileID: 787427989}
 --- !u!1001 &558750305
 PrefabInstance:
@@ -3347,6 +3423,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3417,6 +3497,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3558,6 +3642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3697,6 +3785,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3838,6 +3930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3907,6 +4003,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4112,6 +4212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4187,6 +4291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4261,6 +4369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cylinder (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4330,6 +4442,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4523,6 +4639,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4944,7 +5064,7 @@ GameObject:
   - component: {fileID: 771206733}
   m_Layer: 0
   m_Name: "Obst\xE1culoRotante"
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5062,7 +5182,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMaterial2: {fileID: 2100000, guid: b32a876c896c66f4285c6b0edae0cdb9, type: 2}
   paredTocada: {fileID: 2100000, guid: 7cc1e2d2d2d3b0b4ba6c998d4842888d, type: 2}
-  CuentaChoques: {fileID: 416338493}
   pantallaFinal: {fileID: 787427989}
 --- !u!1 &787427989
 GameObject:
@@ -5233,6 +5352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5389,6 +5512,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5594,6 +5721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cylinder
       objectReference: {fileID: 0}
+    - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5732,6 +5863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5862,7 +5997,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pantallaFinal: {fileID: 787427989}
   textLabelTime: {fileID: 71760475}
-  CuentaChoques: {fileID: 416338493}
 --- !u!1 &1044632520 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2132577913791736500, guid: eea6214ce8a8bfa458cc946985c5fafc, type: 3}
@@ -6063,6 +6197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6133,6 +6271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6202,6 +6344,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6506,6 +6652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6646,6 +6796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6781,6 +6935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6855,6 +7013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cylinder (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6924,6 +7086,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7070,6 +7236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7140,6 +7310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7161,6 +7335,10 @@ PrefabInstance:
     - target: {fileID: 1830070370897370688, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
       propertyPath: m_Name
       value: Pared completa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1830070370897370688, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 6177169380068140063, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7325,7 +7503,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMaterial2: {fileID: 0}
   paredTocada: {fileID: 0}
-  CuentaChoques: {fileID: 416338493}
   pantallaFinal: {fileID: 787427989}
 --- !u!1001 &1430885367
 PrefabInstance:
@@ -7386,6 +7563,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7621,6 +7802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7761,6 +7946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7830,6 +8019,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8025,6 +8218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pared completa (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1830070370897370688, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 6177169380068140063, guid: 5c0b299211f608a42a0716c3e89e2f1f, type: 3}
       propertyPath: m_LocalScale.z
       value: 45
@@ -8217,6 +8414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8362,6 +8563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8388,7 +8593,7 @@ GameObject:
   - component: {fileID: 1667952372}
   m_Layer: 0
   m_Name: "Obst\xE1culoRotante (1)"
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8506,7 +8711,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMaterial2: {fileID: 2100000, guid: b32a876c896c66f4285c6b0edae0cdb9, type: 2}
   paredTocada: {fileID: 2100000, guid: 7cc1e2d2d2d3b0b4ba6c998d4842888d, type: 2}
-  CuentaChoques: {fileID: 416338493}
   pantallaFinal: {fileID: 787427989}
 --- !u!1001 &1698132120
 PrefabInstance:
@@ -8572,6 +8776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8598,7 +8806,7 @@ GameObject:
   - component: {fileID: 1703099220}
   m_Layer: 0
   m_Name: "Obst\xE1culoRotante (2)"
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8716,7 +8924,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMaterial2: {fileID: 2100000, guid: b32a876c896c66f4285c6b0edae0cdb9, type: 2}
   paredTocada: {fileID: 2100000, guid: 7cc1e2d2d2d3b0b4ba6c998d4842888d, type: 2}
-  CuentaChoques: {fileID: 416338493}
   pantallaFinal: {fileID: 787427989}
 --- !u!4 &1709904706 stripped
 Transform:
@@ -8865,6 +9072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9005,6 +9216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9140,6 +9355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9209,6 +9428,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9283,6 +9506,10 @@ PrefabInstance:
     - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
       propertyPath: m_Name
       value: Cylinder (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9466,6 +9693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9535,6 +9766,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9606,6 +9841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9675,6 +9914,10 @@ PrefabInstance:
     - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
       propertyPath: m_Name
       value: Cylinder (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9787,6 +10030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cylinder (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7679965266090736378, guid: 3697642df8a86dd4786d4f5c7e5699fa, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9856,6 +10103,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10001,6 +10252,10 @@ PrefabInstance:
     - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
       propertyPath: m_Name
       value: Muro (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10423,6 +10678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muro
       objectReference: {fileID: 0}
+    - target: {fileID: 8075058691753327229, guid: 92ea4ff5701d7b044999b2f9b50a8044, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10444,6 +10703,10 @@ PrefabInstance:
     - target: {fileID: 2132577913791736500, guid: eea6214ce8a8bfa458cc946985c5fafc, type: 3}
       propertyPath: m_Name
       value: "Obst\xE1culoRotante"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2132577913791736500, guid: eea6214ce8a8bfa458cc946985c5fafc, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 4178410154314269150, guid: eea6214ce8a8bfa458cc946985c5fafc, type: 3}
       propertyPath: m_Materials.Array.data[0]
