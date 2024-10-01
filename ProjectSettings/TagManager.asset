@@ -8,6 +8,7 @@ TagManager:
   - Coin
   - SpecialCoin
   - Obstaculo
+  - Enemy
   layers:
   - Default
   - TransparentFX
