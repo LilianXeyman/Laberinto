@@ -18,8 +18,8 @@ public class CuentaChoques : MonoBehaviour
     TextMeshProUGUI numeroDeVidas;
 
     int numeroChoques = 0;
-    int numeroVidas = 8;
-    int numeroVidas2 = 8;
+    int numeroVidas = 5;
+    int numeroVidas2 = 5;
 
     private void OnCollisionEnter(Collision collision)
     {
